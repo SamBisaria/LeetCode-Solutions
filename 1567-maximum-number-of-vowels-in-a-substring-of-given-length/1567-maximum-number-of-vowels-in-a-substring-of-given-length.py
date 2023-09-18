@@ -7,8 +7,8 @@ class Solution(object):
         """
         vowels = ['a', 'e', 'i', 'o', 'u']
         maxLength = 0
-        
         length = 0
+        
         for i in range(k - 1, len(s)):
             if i == k-1:
                 for j in range(i-k+1, i+1):
