@@ -17,8 +17,7 @@ class Solution(object):
                 if s[i] in vowels:
                     if s[i-k] not in vowels:
                         length += 1
-                else:
-                    if s[i-k] in vowels:
+                elif s[i-k] in vowels:
                         length -= 1
             maxLength = max(length, maxLength)
         return maxLength
