@@ -8,15 +8,14 @@ class Solution(object):
         maximum = 0
         pointer = -1
         zeroes = []
-        k = 1
         if len(nums) < 2:
             return 0
         while counter < len(nums):
             if nums[counter] == 0:
-                if len(zeroes) < k:
+                if len(zeroes) < 1:
                     zeroes.append(counter)
                 else:
-                    pointer = zeroes[len(zeroes) - (k)]
+                    pointer = zeroes[len(zeroes) - 1]
                     zeroes.append(counter)
             maximum = max(counter - pointer, maximum)
             counter += 1
