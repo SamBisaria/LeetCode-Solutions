@@ -10,8 +10,4 @@ class Solution(object):
             if element not in numbers:
                 numbers.append(element)
                 occurences.append(arr.count(element))
-        if len(set(occurences)) == len(occurences):
-            return True
-        return False
-        
-        
+        return len(set(occurences)) == len(occurences)
