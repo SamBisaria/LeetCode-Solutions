@@ -5,11 +5,11 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
-        
         counter = 0
         maximum = 0
         pointer = -1
         zeroes = []
+
         if k >= len(nums):
             return len(nums)
         while counter < len(nums):
