@@ -5,6 +5,7 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
+        
         counter = 0
         kcounter = k
         maximum = 0
