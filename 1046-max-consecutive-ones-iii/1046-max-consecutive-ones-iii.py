@@ -23,6 +23,7 @@ class Solution(object):
                     zeroes.append(counter)
             maximum = max(counter - pointer, maximum)
             counter += 1
+            
         return maximum
                 
 
