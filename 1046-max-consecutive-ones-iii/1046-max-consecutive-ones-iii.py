@@ -5,12 +5,14 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
-
+        
         counter = 0
         kcounter = k
         maximum = 0
         pointer = -1
         zeroes = []
+        if k >= len(nums):
+            return len(nums)
         while counter < len(nums):
             if nums[counter] == 0:
                 if kcounter > 0:
