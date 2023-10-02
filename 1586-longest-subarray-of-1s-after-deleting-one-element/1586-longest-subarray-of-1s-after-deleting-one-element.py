@@ -3,14 +3,14 @@ class Solution(object):
         """
         :type nums: List[int]
         :rtype: int
-        """
-        
+        """  
         counter = 0
         maximum = 0
         pointer = -1
         zeroes = []
         if len(nums) < 2:
             return 0
+            
         while counter < len(nums):
             if nums[counter] == 0:
                 if len(zeroes) < 1:
