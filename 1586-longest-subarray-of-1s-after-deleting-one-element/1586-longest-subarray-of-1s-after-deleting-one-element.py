@@ -4,6 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        
         counter = 0
         maximum = 0
         pointer = -1
