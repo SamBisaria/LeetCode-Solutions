@@ -5,7 +5,6 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: List[List[int]]
         """
-        
         answer = [[],[]]
         for num in nums1:
             if num not in nums2 and num not in answer[0]:
