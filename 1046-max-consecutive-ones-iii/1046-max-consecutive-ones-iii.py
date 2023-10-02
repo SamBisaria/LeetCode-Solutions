@@ -11,13 +11,13 @@ class Solution(object):
         zeroes = []
         if k >= len(nums):
             return len(nums)
-            
+
         while counter < len(nums):
             if nums[counter] == 0:
                 if len(zeroes) < k:
                     zeroes.append(counter)
                 elif k == 0:
-                        pointer = counter
+                    pointer = counter
                 else:
                     pointer = zeroes[len(zeroes) - (k)]
                     zeroes.append(counter)
