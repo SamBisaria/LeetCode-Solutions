@@ -19,4 +19,12 @@ Collection of LeetCode solutions
 |  |
 | ------- |
 | [0801-is-graph-bipartite](https://github.com/SamBisaria/LeetCode-Solutions/tree/master/0801-is-graph-bipartite) |
+## Array
+|  |
+| ------- |
+| [0198-house-robber](https://github.com/SamBisaria/LeetCode-Solutions/tree/master/0198-house-robber) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0198-house-robber](https://github.com/SamBisaria/LeetCode-Solutions/tree/master/0198-house-robber) |
 <!---LeetCode Topics End-->
