@@ -27,4 +27,12 @@ Collection of LeetCode solutions
 |  |
 | ------- |
 | [0198-house-robber](https://github.com/SamBisaria/LeetCode-Solutions/tree/master/0198-house-robber) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/SamBisaria/LeetCode-Solutions/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/SamBisaria/LeetCode-Solutions/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
